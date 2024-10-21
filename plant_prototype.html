@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Prototype</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 25%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+        }
+
+        .product-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .product-list li {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .product-list li input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .product-list li span {
+            font-weight: bold;
+        }
+
+        /* Main content styling */
+        .main-content {
+            width: 75%;
+            background-color: #ffde75;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-content h1 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .main-content img {
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        /* Header links styling */
+        .header-links {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .header-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Plant Features</h2>
+        <ul class="product-list">
+            <li><input type="checkbox"> <span>Enhanced Water Efficiency</span></li>
+            <li><input type="checkbox"> <span>Drought Resistance</span></li>
+            <li><input type="checkbox"> <span>Cellular Adaptations</span></li>
+            <li><input type="checkbox"> <span>Climate Resilience</span></li>
+            <li><input type="checkbox"> <span>Reduced Irrigation</span></li>
+        </ul>
+    </div>
+
+    <!-- Main content area -->
+    <div class="main-content">
+        <div class="header-links">
+            <a href="#">Shop</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <h1>Plant Prototype</h1>
+        <p>
+            This plant prototype represents an advanced development in agriculture, designed to optimize
+            water efficiency and drought resistance. Its cellular adaptations make it a key solution
+            for climate resilience, reducing the need for irrigation in arid regions. By incorporating
+            cutting-edge biological advancements, this plant offers farmers a sustainable and efficient
+            way to address the challenges posed by a changing climate.
+        </p>
+
+        <img src="your-plant-image.jpg" alt="Plant Prototype">
+    </div>
+</body>
+
+</html>
